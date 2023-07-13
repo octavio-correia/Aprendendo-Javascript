@@ -31,3 +31,9 @@ function somar2(num1, num2) {
 }
 
 somar2(40,50)
+
+/* Arrow functions podem ser feitas toda na mesma linha */
+
+const multiplicacao = (n1, n2) => console.log(`A multiplicação de ${n1} e ${n2} é igual a ` + n1 * n2)
+
+console.log(multiplicacao(3, 9))
